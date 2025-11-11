@@ -4,7 +4,7 @@ import HeroSection from '../components/Hero';
 import Expert from '../components/Expert';
 import About from '../components/About';
 import Counter from '../components/Counter';
-import CustomCursor from '../components/Cursor/CustomCursor';
+
 import Working from '../components/Working';
 import Service from '../components/Service';
 import Skills from '../components/Skills';
@@ -33,7 +33,7 @@ export default function Home() {
     
       <main className="main">
         <div className='hero-section'>
-          <CustomCursor/>
+         
            <Navbar />
            <HeroSection />
           <Expert />

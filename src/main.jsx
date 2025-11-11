@@ -14,4 +14,17 @@ root.render(
   </BrowserRouter>
 );
 
+// Initialize Lenis
+const lenis = new Lenis({
+  duration: 1,
+  easing: (t) => t,
+  smooth: true,
+  direction: "vertical",
+});
 
+function raf(time) {
+  lenis.raf(time);
+  requestAnimationFrame(raf);
+}
+
+requestAnimationFrame(raf);

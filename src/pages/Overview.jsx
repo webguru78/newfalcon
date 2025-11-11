@@ -6,12 +6,12 @@ import About from '../components/About'
 import Counter from '../components/Counter'
 import Vision from '../components/Vision'
 import ContactForm from '../OverviewComponents/ContactForm'
-import CustomCursor from '../components/Cursor/CustomCursor'
+
 
 const Overview = () => {
   return (
     <div>
-      <CustomCursor/>
+      
         <Navbar/>
         <Breadcrum />
         <About/>
