@@ -12,6 +12,7 @@ import Partner from '../components/Partner';
 import Vision from '../components/Vision';
 import Footer from '../components/Footer';
 
+
 export default function Home() {
   useEffect(() => {
     if (window.jQuery) {
@@ -41,6 +42,7 @@ export default function Home() {
            <Counter/>
            <Working/>
            <Service/>
+          
           <Vision/>
            <Skills/>
            <Partner/>

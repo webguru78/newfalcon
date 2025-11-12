@@ -1,0 +1,86 @@
+.chooseus-section {
+  background-color: #f8f9fa; /* Same as image bg */
+  color: #000; /* Black text */
+  position: relative;
+  overflow: hidden;
+}
+
+.chooseus-heading {
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color: black !important;
+}
+
+.chooseus-heading .highlight {
+  color: #F65801;
+}
+
+.chooseus-subtext {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.7;
+  color: #444;
+}
+
+/* --- Cards --- */
+.chooseus-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 40px 25px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.chooseus-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* --- Icons --- */
+.icon-wrapper {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ffd200, #0056b3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  color: white;
+  margin: 0 auto 20px auto;
+}
+
+.chooseus-card h5 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.chooseus-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.7;
+}
+
+/* --- Footer Text --- */
+.chooseus-footer-text {
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #111;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .chooseus-heading {
+    font-size: 2rem;
+  }
+  .chooseus-card {
+    padding: 30px 20px;
+  }
+}

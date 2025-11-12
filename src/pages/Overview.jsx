@@ -6,6 +6,7 @@ import About from "../components/About";
 import Counter from "../components/Counter";
 import Vision from "../components/Vision";
 import ContactForm from "../OverviewComponents/ContactForm";
+import ChooseUsSection from "../components/ChooseUsSection";
 
 const Overview = () => {
   useEffect(() => {
@@ -33,6 +34,7 @@ const Overview = () => {
       <Breadcrum />
       <About />
       <Vision />
+      <ChooseUsSection />
       <Counter />
       <ContactForm />
       <Footer />

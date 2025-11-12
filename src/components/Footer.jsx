@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
         <footer className="footer-area">
-  <div className="footer-shape" style={{backgroundImage: 'url(assets/img/shape/03.png)'}} />
+  <div className="footer-shape" style={{backgroundImage: 'url(assets/img/logo.png)'}} />
   <div className="footer-widget">
     <div className="container">
       <div className="footer-widget-wrap pt-100 pb-80">

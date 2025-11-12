@@ -13,7 +13,7 @@
           left: 50px;
           width: 200px;
           height: 200px;
-          background-image: radial-gradient(circle, #f39c12 2px, transparent 2px);
+          background-image: radial-gradient(circle, #73BAAA 2px, transparent 2px);
           background-size: 20px 20px;
           opacity: 0.15;
           z-index: 1;
@@ -69,7 +69,7 @@
           display: inline-flex;
           align-items: center;
           gap: 10px;
-          background: #F65801;
+          background: #73BAAA;
           color: white;
           padding: 12px 28px;
           border-radius: 50px;
@@ -78,7 +78,7 @@
           text-transform: uppercase;
           letter-spacing: 1px;
           margin-bottom: 25px;
-          box-shadow: 0 4px 15px rgba(243, 156, 18, 0.3);
+         
         }
 
         .vision-badge i {
@@ -87,7 +87,7 @@
 
         .vision-title {
           font-size: 3.2rem;
-          font-weight: 800;
+          font-weight: 700;
           color: #1a1a1a;
           margin-bottom: 20px;
           line-height: 1.2;
@@ -97,7 +97,7 @@
         }
 
         .vision-title span {
-          background: #F65801;
+          background: #0039A0;
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
           background-clip: text;
@@ -113,7 +113,7 @@
           left: 0;
           width: 80px;
           height: 4px;
-          background: linear-gradient(90deg, #f39c12 0%, transparent 100%);
+          background: linear-gradient(90deg, #0039A0 0%, transparent 100%);
           border-radius: 2px;
         }
 
@@ -130,12 +130,12 @@
           display: inline-flex;
           align-items: center;
           gap: 12px;
-          background: #F65801;
+          background: #0039A0;
           color: white;
           padding: 18px 40px;
           border-radius: 8px;
           text-decoration: none;
-          font-size: 1.05rem;
+          font-size: 1.1rem;
           font-weight: 600;
           transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
           box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
@@ -152,7 +152,7 @@
           height: 100%;
           background: white;
           transition: left 0.5s;
-          border: 1px solid #f39c12;
+          border: 1px solid #0039A0;
         }
 
         .vision-cta-btn:hover::before {

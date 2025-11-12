@@ -6,6 +6,7 @@ import Working from "../components/Working";
 import Clients from "../WhyChoose/Clients";
 import Counter from "../components/Counter";
 import Partner from "../components/Partner";
+import Gallery from "../ServicesComponents/Gallery";
 
 const WhyChoose = () => {
   useEffect(() => {
@@ -31,6 +32,7 @@ const WhyChoose = () => {
       <Working />
       <Clients />
       <Counter />
+      <Gallery/>
       <Partner />
       <Footer />
     </div>
