@@ -27,7 +27,8 @@ const Overview = () => {
   }, []);
 
   return (
-    <div>
+    <div style={{ overflow: "visible" }}>
+      
       <Navbar />
       <Breadcrum />
       <About />

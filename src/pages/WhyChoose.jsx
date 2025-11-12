@@ -25,7 +25,7 @@ const WhyChoose = () => {
   }, []);
 
   return (
-    <div>
+    <div style={{ overflow: "visible" }}>
       <Navbar />
       <WhyBreadcrumb />
       <Working />
