@@ -6,42 +6,7 @@ const Navbar = () => {
     <div>
       <header className="header">
         {/* header top */}
-        <div className="header-top">
-          <div className="container">
-            <div className="header-top-wrap">
-              <div className="header-top-left">
-                <div className="header-top-list">
-                  <ul>
-                    <li>
-                      <a href="mailto:info@mountainfalcon.com">
-                        <i className="far fa-envelopes" /> mfcc.saudi@gmail.com
-                      </a>
-                    </li>
-                    <li>
-                      <a href="tel:+966123456789">
-                        <i className="far fa-phone-volume" /> +966 12 345 6789
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="far fa-alarm-clock" /> Mond - Sund 
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="header-top-right">
-                <div className="header-top-social">
-                  <span>Follow Us: </span>
-                  <a href="#"><i className="fab fa-facebook" /></a>
-                  <a href="#"><i className="fab fa-x-twitter" /></a>
-                  <a href="#"><i className="fab fa-instagram" /></a>
-                  <a href="#"><i className="fab fa-linkedin" /></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      
         {/* header top end */}
 
         {/* navbar */}
@@ -155,19 +120,19 @@ const Navbar = () => {
                       </a>
                       <ul className="dropdown-menu fade-down">
                         <li>
-                          <Link className="dropdown-item" to="/overview">
+                          <Link className="dropdown-item" to="/contract">
                             <i className="far fa-info-circle" /> Contracting Division
                           </Link>
                         </li>
+                       <Link className="dropdown-item" to="/scaffolding-division">
+  <i className="far fa-info-circle" /> Scaffolding Division
+</Link>
+
+                      
                         <li>
-                          <Link className="dropdown-item" to="/why-choose">
-                            <i className="far fa-star" />Scaffolding
-                          </Link>
-                        </li>
-                        <li>
-                          <Link className="dropdown-item" to="/quality">
-                            <i className="far fa-certificate" /> Heavy Equipment Rental
-                          </Link>
+                        <Link className="dropdown-item" to="/heavy-equipment">
+  <i className="far fa-info-circle" /> Heavy Equipment
+</Link>
                         </li>
                         <li>
                           <a className="dropdown-item" href="/about/hse-policy">

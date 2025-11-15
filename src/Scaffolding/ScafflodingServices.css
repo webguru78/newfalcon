@@ -1,0 +1,220 @@
+.sg-section {
+  padding: 100px 0;
+  background: #f8f9fa;
+}
+
+.sg-header {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.sg-label {
+  display: inline-block;
+  background: rgba(13, 110, 253, 0.1);
+  color: #0d6efd;
+  padding: 8px 24px;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.sg-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.sg-desc {
+  font-size: 18px;
+  color: #666;
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.sg-item {
+  margin-bottom: 30px;
+}
+
+/* CARD */
+.sg-card {
+  position: relative;
+  height: 450px;
+  background: #ffffff;
+  overflow: hidden;
+  transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+}
+
+.sg-card:hover {
+  box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+}
+
+/* IMAGE */
+.sg-img-wrap {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.sg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  filter: grayscale(20%);
+}
+
+.sg-card:hover .sg-img {
+  filter: grayscale(0%);
+}
+
+.sg-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.7) 100%);
+  transition: 0.6s;
+}
+
+.sg-card:hover .sg-overlay {
+  background: #73BAAA;
+}
+
+/* NUMBER */
+.sg-num {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-size: 72px;
+  font-weight: 900;
+  color: rgba(255,255,255,0.15);
+  transition: 0.6s;
+}
+
+.sg-card:hover .sg-num {
+  transform: scale(1.2);
+  color: rgba(255,255,255,0.08);
+}
+
+/* CONTENT */
+.sg-content {
+  position: absolute;
+  bottom: 0;
+  padding: 40px 30px;
+  transition: 0.6s;
+}
+
+.sg-card:hover .sg-content {
+  padding: 50px 30px;
+}
+
+/* ICON */
+.sg-icon {
+  font-size: 42px;
+  margin-bottom: 20px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.6s;
+  display: none;
+}
+
+.sg-card:hover .sg-icon {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.sg-service-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.sg-service-desc {
+  font-size: 15px;
+  color: rgba(255,255,255,0.95);
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: 0.6s;
+}
+
+.sg-card:hover .sg-service-desc {
+  max-height: 100px;
+  opacity: 1;
+}
+
+.sg-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+
+  background: #0A2155;
+  padding: 8px 20px;
+  border-radius: 25px;
+  padding: 10px 20px;
+  width: max-content;
+  margin: 15px auto 0;
+
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.4s ease;
+}
+
+/* Show link when card is hovered */
+.sg-card:hover .sg-link {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Smooth hover interaction */
+.sg-link:hover {
+  gap: 12px;
+  transform: translateY(-2px);
+  color: white;
+}
+
+
+/* Vertical Line */
+.sg-vline {
+  width: 3px;
+  height: 0;
+  background: #fff;
+  margin-bottom: 20px;
+  transition: 0.6s;
+}
+
+.sg-card:hover .sg-vline {
+  height: 50px;
+}
+
+/* Expand hover */
+.sg-card:hover .sg-img-wrap {
+  transform: scale(1.02);
+}
+
+/* Fade others */
+.row:has(.sg-card:hover) .sg-item:not(:hover) .sg-card {
+  opacity: 0.6;
+}
+
+@media(max-width: 991px) {
+  .sg-title { font-size: 36px; }
+  .sg-card { height: 400px; }
+}
+
+@media(max-width: 767px) {
+  .sg-section { padding: 60px 0; }
+  .sg-title { font-size: 32px; }
+  .sg-card { height: 350px; }
+}
