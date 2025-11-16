@@ -10,15 +10,14 @@ import Hec from './pages/Hec';
 import Ceo from './pages/Ceo';
 import Contract from './pages/Contract';
 import Scaffolding from './pages/Scaffolding';
-import HeavyEquipment from './pages/HeavyEquipment';
-
 // Blog Pages
-
-
 import Civil from './pages/Civil';
-import Mechanical from './pages/Mechanical';
-import Electrical from './pages/Electrical';
 
+import Electrical from './pages/Electrical';
+import Mechanical from './pages/Mechanical';
+import Instrumentation from './pages/Instrumentation';
+import Firefighting from './pages/Firefighting';
+import Fabrication from './pages/Fabrication';
 const App = () => {
   return (
     <Routes>
@@ -32,14 +31,19 @@ const App = () => {
       <Route path="/ceo" element={<Ceo />} />
       <Route path="/contract" element={<Contract />} />
       <Route path="/scaffolding-division" element={<Scaffolding />} />
-      <Route path="/heavy-equipment" element={<HeavyEquipment />} />
+     
 
       {/* BLOG ROUTES → must match slug */}
     
     
       <Route path="/civil-services" element={<Civil />} />
-      <Route path="/mechanical-services" element={<Mechanical />} />
       <Route path="/electrical-services" element={<Electrical />} />
+      <Route path="/mechanical-services" element={<Mechanical />} />
+      <Route path="/instrumentation-services" element={<Instrumentation />} />
+      <Route path="/firefighting-services" element={<Firefighting />} />
+      <Route path="/fabrication-services" element={<Fabrication />} />
+     
+    
 
     </Routes>
   );

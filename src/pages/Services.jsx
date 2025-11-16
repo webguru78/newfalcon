@@ -4,7 +4,7 @@ import ServiceBreadcrum from '../ServicesComponents/ServiceBreadcrum'
 import Footer from '../components/Footer'
 import OurServices from '../ServicesComponents/OurServices'
 import Counter from '../components/Counter'
-import Gallery from '../ServicesComponents/Gallery'
+import ProjectGallery from '../components/ProjectGallery'
 
 const Services = () => {
   return (
@@ -13,7 +13,7 @@ const Services = () => {
         <ServiceBreadcrum/>
         <OurServices/>
         <Counter/>
-        <Gallery/>
+        <ProjectGallery/>
         <Footer/>
     </div>
   )

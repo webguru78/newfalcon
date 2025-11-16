@@ -1,15 +1,15 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import ContractBreadcrum from '../ContractComponents/ContractBreadcrum'
 
-import Footer from '../components/Footer'
-import PipelineServicesBlog from '../Blog/PipelineServicesBlog'
+import MechanicalServices from '../Blog/MechanicalServices'
 
 const Mechanical = () => {
   return (
     <div>
         <Navbar/>
-        <PipelineServicesBlog/>
-        <Footer/>
+        <ContractBreadcrum/>
+        <MechanicalServices/>
     </div>
   )
 }

@@ -185,6 +185,7 @@
           height: 30px;
           background: linear-gradient(180deg, #3b82f6, #8b5cf6);
           border-radius: 10px;
+          display: none;
         }
 
         .service-image-wrapper {

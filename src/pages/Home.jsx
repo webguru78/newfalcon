@@ -11,6 +11,7 @@ import Skills from '../components/Skills';
 import Partner from '../components/Partner';
 import Vision from '../components/Vision';
 import Footer from '../components/Footer';
+import ProjectGallery from '../components/ProjectGallery';
 
 
 export default function Home() {
@@ -43,6 +44,7 @@ export default function Home() {
            <Working/>
            <Service/>
           
+          <ProjectGallery/>
           <Vision/>
            <Skills/>
            <Partner/>

@@ -13,7 +13,7 @@ const Counter = () => {
           <div className="content">
             <div className="info">
               <span className="counter" data-count="+" data-to={150} data-speed={3000}>150</span>
-              <span className="unit">k</span>
+              <span className="unit">+</span>
             </div>
             <h6 className="title">Projects Done</h6>
           </div>
@@ -27,7 +27,7 @@ const Counter = () => {
           <div className="content">
             <div className="info">
               <span className="counter" data-count="+" data-to={25} data-speed={3000}>25</span>
-              <span className="unit">K</span>
+              <span className="unit">+</span>
             </div>
             <h6 className="title">Happy Clients</h6>
           </div>

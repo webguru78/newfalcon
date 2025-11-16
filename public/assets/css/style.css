@@ -2355,6 +2355,7 @@ label {
   transition: var(--transition);
   box-shadow: var(--box-shadow);
   margin-top: 20px;
+  border: 1px solid #41BE7D !important;
 }
 
 .service-item .count{
@@ -2403,6 +2404,7 @@ label {
 
 .service-content h4 a{
   color: var(--color-dark);
+  font-size: 24px !important;
 }
 
 .service-content h4 a:hover{
@@ -3832,7 +3834,7 @@ label {
   right: 10px;
   bottom: 10px;
   background: var(--theme-color);
-  border-radius: 40px;
+  border-radius: 10px !important;
   opacity: 0;
   visibility: hidden;
   transition: 0.3s;

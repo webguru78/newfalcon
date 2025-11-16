@@ -39,9 +39,7 @@ const Skills = () => {
                   We Offers You Best <span>Construction</span> Services
                 </h2>
                 <p className="skill-text">
-                  There are many variations of passages of Lorem Ipsum available, but the
-                  majority have suffered alteration in some form, by injected humour, or
-                  randomised words which don't look even slightly believable.
+               In today’s fast-evolving infrastructure landscape, MOUNTAIN FALCON COMPANY emerges as a trusted partner known for its forward-thinking approach and expert execution of major development projects. From roads and bridges to tunnels and service stations.
                 </p>
 
                 <div className="skill-progress">

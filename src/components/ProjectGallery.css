@@ -1,0 +1,239 @@
+.portfolio-gallery-section {
+  background: #ffffff;
+  padding: 100px 0;
+  position: relative;
+}
+
+.portfolio-header {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.portfolio-badge {
+  display: inline-block;
+  background: #73BAAA;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.portfolio-main-title {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+  letter-spacing: -2px;
+  line-height: 1.1;
+}
+
+.portfolio-description {
+  font-size: 1.2rem;
+  color: #6c757d;
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.portfolio-tabs-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 60px;
+  padding: 0 15px;
+}
+
+.portfolio-tab-button {
+  padding: 16px 30px;
+  border: none;
+  background: white;
+  color: black;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #73BAAA;
+}
+
+.portfolio-tab-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: #73BAAA;
+  transition: left 0.4s ease;
+  z-index: -1;
+}
+
+.portfolio-tab-button:hover::before {
+  left: 0;
+}
+
+.portfolio-tab-button:hover {
+  color: white;
+  transform: translateY(-3px);
+}
+
+.portfolio-tab-active {
+  background: #73BAAA !important;
+  color: white !important;
+  transform: scale(1.05);
+}
+
+.portfolio-tab-active::before {
+  display: none;
+}
+
+.portfolio-content-area {
+  margin-bottom: 50px;
+}
+
+.portfolio-title-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.portfolio-project-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+  letter-spacing: -1px;
+}
+
+.portfolio-title-divider {
+  width: 80px;
+  height: 4px;
+  background: #73BAAA;
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+.portfolio-image-card {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  height: 100%;
+  cursor: pointer;
+  position: relative;
+}
+
+.portfolio-image-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(115, 186, 170, 0.15) 0%, rgba(115, 186, 170, 0.25) 100%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+  border-radius: 16px;
+}
+
+.portfolio-image-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-image-card:hover::after {
+  opacity: 1;
+}
+
+.portfolio-img-wrapper {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+}
+
+.portfolio-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-image-card:hover .portfolio-img {
+  transform: scale(1.15);
+}
+
+.portfolio-img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, 
+    transparent 0%, 
+    rgba(0, 0, 0, 0.7) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none !important;
+}
+
+.portfolio-image-card:hover .portfolio-img-overlay {
+  opacity: 1;
+}
+
+.portfolio-zoom-icon {
+  width: 50px;
+  height: 50px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0.5);
+  transition: transform 0.4s ease;
+}
+
+.portfolio-image-card:hover .portfolio-zoom-icon {
+  transform: scale(1);
+}
+
+.portfolio-zoom-icon svg {
+  width: 24px;
+  height: 24px;
+  color: #73BAAA;
+}
+
+@media (max-width: 768px) {
+  .portfolio-main-title {
+    font-size: 2.5rem;
+  }
+
+  .portfolio-project-title {
+    font-size: 2rem;
+  }
+
+  .portfolio-img-wrapper {
+    height: 250px;
+  }
+
+  .portfolio-tabs-wrapper {
+    gap: 10px;
+  }
+
+  .portfolio-tab-button {
+    padding: 12px 20px;
+    font-size: 0.9rem;
+  }
+}

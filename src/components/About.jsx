@@ -13,7 +13,7 @@ const About = () => {
           </div>
           <div className="about-experience">
             <h5>30<span>+</span></h5>
-            <p style={{color:"white"}}>Years Of Experience</p>
+            <p>Years Of Experience</p>
           </div>
         </div>
       </div>
@@ -21,38 +21,11 @@ const About = () => {
         <div className="about-right wow fadeInUp" data-wow-delay=".25s">
           <div className="site-heading mb-3">
             <span className="site-title-tagline"><i className="far fa-helmet-safety" /> About Us</span>
-            <h2 className="site-title">We Are The <span>Best and Expert</span> For Construction</h2>
+            <h2 className="site-title">Creative Solutions <span>Professional Designers</span> For Construction</h2>
           </div>
-          <p className="about-text">There are many variations of passages of Lorem Ipsum available,
-            but the majority have suffered alteration in some form, by injected humour, or
-            randomised words which don't look even.</p>
-          <div className="about-content">
-            <div className="row g-3">
-              <div className="col-md-6">
-                <div className="about-item border-end pe-2">
-                  <div className="icon">
-                    <img src="assets/img/icon/team-2.svg" alt />
-                  </div>
-                  <div className="content">
-                    <h6>Our Experts Team</h6>
-                    <p>Take a look at our up of the round shows.</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="about-item">
-                  <div className="icon">
-                    <img src="assets/img/icon/material.svg" alt />
-                  </div>
-                  <div className="content">
-                    <h6>Strong Materials</h6>
-                    <p>Take a look at our up of the round shows.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <a href="about.html" className="theme-btn">Discover More<i className="fas fa-arrow-right" /></a>
+          <p className="about-text">In today’s fast-evolving infrastructure landscape, MOUNTAIN FALCON COMPANY emerges as a trusted partner known for its forward-thinking approach and expert execution of major development projects. From roads and bridges to tunnels and service stations, we deliver fully integrated solutions that blend innovation, quality, and strict adherence to international standards. With a commitment to excellence and a team of highly skilled professionals, MOUNTAIN FALCON COMPANY continues to shape reliable and sustainable infrastructure for the future..</p>
+         
+         
         </div>
       </div>
     </div>

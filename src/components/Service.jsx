@@ -144,7 +144,7 @@ export default function ServiceSlider() {
         >
           {services.map((service) => (
             <SwiperSlide key={service.id}>
-              <div className="service-item">
+              <div className="service-item ">
                 <span className="count">{service.id}</span>
                 <div className="service-img">
                   <img src={service.img} alt={service.title} />
