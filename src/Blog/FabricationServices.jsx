@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Share2, User, Calendar, Search, ArrowRight, Clock, Facebook, Twitter, Linkedin, Instagram, Youtube } from 'lucide-react';
 import './CivilServices.css';
-import Footer from '../components/Footer';
+
 
 const FabricationServices = () => {
   const [scrollProgress, setScrollProgress] = useState(0);
@@ -51,7 +51,7 @@ const FabricationServices = () => {
         <div className="blog-grid">
           <div className="blog-main">
             <div className="hero-image">
-              <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&h=500&fit=crop" alt="Mountain Falcon Civil Services" />
+              <img src="/assets/img/fb3.jpg" />
               <div className="hero-overlay">
                 <h1 style={{ fontSize: '36px', fontWeight: 'bold', marginBottom: '10px',color:"white" }}>Fabrication Services</h1>
                 <p style={{ fontSize: '18px', opacity: 0.9,color:"white !important" }}>Building Tomorrow's Infrastructure Today</p>
@@ -78,20 +78,26 @@ const FabricationServices = () => {
             <h1 className="blog-title">Comprehensive Fabrication Services by Mountain Falcon</h1>
 
             <p className="intro-text">
-             In the realm of Mechanical Services, MOUNTAIN FALCON COMPANY stands out for its exceptional technical expertise and steadfast commitment to efficiency. Our highly skilled team of technicians and engineers excels in the installation, maintenance, and repair of mechanical systems across a wide range of industries.
+           In the field of Firefighting Services, MOUNTAIN FALCON COMPANY stands as a trusted leader known for its unmatched technical expertise, advanced safety solutions, and unwavering commitment to protection and reliability. Our certified and highly trained team specializes in the complete lifecycle of fire protection systems—including installation, testing, maintenance, inspection, and repair—ensuring comprehensive safety coverage for commercial, residential, and industrial sectors.
+
+
             </p>
 
             <p className="intro-text">
-              From the precise installation of HVAC systems to the meticulous upkeep of advanced machinery, our Mechanical Services are designed to ensure optimal performance and long-term reliability. With a blend of technical mastery and a proactive service approach, MOUNTAIN FALCON COMPANY supports the smooth operation of diverse mechanical systems—enhancing productivity, minimizing downtime, and delivering lasting value to every client project.
+            We deliver end-to-end solutions tailored to the unique fire safety requirements of each project. From the precise installation of fire hydrant networks, automatic fire sprinkler systems, addressable and conventional fire alarm systems, smoke and heat detection systems, and FM-200 / CO₂ / NOVEC-1230 suppression systems, to the careful servicing of emergency lighting, fire extinguishers, pump rooms, and control panels, every component is engineered to meet international codes and safety standards.
             </p>
 
             <div className="service-section " id="building">
-              <h2 className="service-title">Mechanical Services</h2>
+              <h2 className="service-title">Fabrication Services</h2>
               <div className="service-image-wrapper">
-                <img src="/assets/img/6.jpg" alt="Industrial Building" />
+                <img src="/assets/img/fb1.jpg" alt="Industrial Building" />
               </div>
               <p className="service-text">
-              MOUNTAIN FALCON COMPANY offers a comprehensive range of mechanical and industrial services, covering everything from Industrial Plant Piping Works, Machinery Installation, Airline Supply Installation, and Mechanical Erection, to Drainage and Sewer Line construction. Our expertise extends to HVAC Works, Insulation, Painting & Blasting, Testing & Commissioning, Pipe Spool Fabrication, Field Installation, and all types of system flushing. We specialize in installing various mechanical machinery, lifting equipment including elevators, engines, pumps, as well as hook-up systems, manifolds, and accessories.
+         At MOUNTAIN FALCON COMPANY, we take pride in delivering exceptional quality through every step of our work. From the selection of premium materials to the expertise of our skilled craftsmen, we ensure that each project reflects durability, reliability, and precision. Our commitment to excellence begins at the planning stage and continues all the way through installation, finishing, and post-project support.
+
+With extensive industry experience, our team understands the technical requirements and unique challenges of every project. This allows us to provide customized solutions that meet the highest standards of performance and safety. Whether it's a small repair job or a large-scale industrial project, we approach every task with the same level of dedication and professionalism.
+
+In addition to delivering high-quality work, MOUNTAIN FALCON COMPANY also provides ongoing maintenance and support to preserve the long-term value of every project. Our clients trust us not only for our craftsmanship but also for our consistent follow-up, transparent communication, and reliable after-service assistance.
               </p>
               
              
@@ -162,7 +168,7 @@ const FabricationServices = () => {
           </div>
         </div>
       </div>
-      <Footer/>
+
     </div>
   );
 };

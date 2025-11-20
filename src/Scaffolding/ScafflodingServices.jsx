@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";  // <-- IMPORTANT
 import "./ScafflodingServices.css";
 
 const services = [
@@ -11,8 +12,12 @@ const services = [
   { title: "Scaffolding Tools & Safety Equipments", img: "/assets/img/7.jpg", desc: "Surface treatment and protective coatings", icon: "🎨" },
   { title: "Scaffolding Castor Wheels", img: "/assets/img/7.jpg", desc: "Surface treatment and protective coatings", icon: "🎨" },
   { title: "Aluminum Products", img: "/assets/img/7.jpg", desc: "Surface treatment and protective coatings", icon: "🎨" },
-  { title: "Ladders", img: "/assets/img/7.jpg", desc: "Surface treatment and protective coatings", icon: "🎨" },
+  { title: "Ladders", img: "/assets/img/7.jpg", desc: "Surface treatment and protective coatings", icon: "🎨" }
 ];
+
+// Function to create URL slugs
+const makeSlug = (text) =>
+  text.toLowerCase().replace(/ /g, "-").replace(/[^\w-]+/g, "");
 
 export default function ScafflodingServices() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -20,14 +25,14 @@ export default function ScafflodingServices() {
   return (
     <div className="sg-section">
       <div className="container">
-        
+
         {/* Header */}
         <div className="sg-header">
           <span className="sg-label">Our Expertise</span>
           <h2 className="sg-title">Professional Services</h2>
           <p className="sg-desc">
-            We deliver industry-leading solutions across multiple engineering disciplines,
-            combining technical excellence with innovative approaches
+            We deliver industry-leading solutions across multiple engineering
+            disciplines, combining technical excellence with innovative approaches
           </p>
         </div>
 
@@ -45,19 +50,22 @@ export default function ScafflodingServices() {
                     <div className="sg-overlay"></div>
                   </div>
 
-                  <div className="sg-num">
-                    {String(i + 1).padStart(2, "0")}
-                  </div>
+                  <div className="sg-num">{String(i + 1).padStart(2, "0")}</div>
 
                   <div className="sg-content">
                     <span className="sg-icon">{service.icon}</span>
                     <div className="sg-vline"></div>
                     <h3 className="sg-service-title">{service.title}</h3>
                     <p className="sg-service-desc">{service.desc}</p>
-                    <a href="#" className="sg-link">
+
+                    {/* 🔗 React Router Link */}
+                    <Link
+                      to={`/${makeSlug(service.title)}`}
+                      className="sg-link"
+                    >
                       View Details
-                    
-                    </a>
+                    </Link>
+
                   </div>
                 </div>
               </div>

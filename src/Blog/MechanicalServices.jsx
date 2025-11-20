@@ -51,7 +51,7 @@ const MechanicalServices = () => {
         <div className="blog-grid">
           <div className="blog-main">
             <div className="hero-image">
-              <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&h=500&fit=crop" alt="Mountain Falcon Civil Services" />
+              <img src="/assets/img/mp2.jpg" />
               <div className="hero-overlay">
                 <h1 style={{ fontSize: '36px', fontWeight: 'bold', marginBottom: '10px',color:"white" }}>Mechanical Services</h1>
                 <p style={{ fontSize: '18px', opacity: 0.9,color:"white !important" }}>Building Tomorrow's Infrastructure Today</p>
@@ -88,7 +88,7 @@ const MechanicalServices = () => {
             <div className="service-section" id="excavation">
               <h2 className="service-title">Pipeline Works</h2>
               <div className="service-image-wrapper">
-                <img src="/assets/img/pipline.jpg" alt="Excavation Services" />
+                <img src="/assets/img/mp3.jpg" alt="Excavation Services" />
               </div>
               <p className="service-text">
               Leveraging our quality-driven team of skilled professionals, MOUNTAIN FALCON COMPANY delivers exceptional pipeline construction services tailored to our clients' needs. Every project is executed by experienced specialists who rely on advanced techniques and high-grade components to ensure durability and performance.
@@ -101,7 +101,7 @@ const MechanicalServices = () => {
             <div className="service-section" id="building">
               <h2 className="service-title">Mechanical Services</h2>
               <div className="service-image-wrapper">
-                <img src="/assets/img/6.jpg" alt="Industrial Building" />
+                <img src="/assets/img/mp4.jpg" alt="Industrial Building" />
               </div>
               <p className="service-text">
               MOUNTAIN FALCON COMPANY offers a comprehensive range of mechanical and industrial services, covering everything from Industrial Plant Piping Works, Machinery Installation, Airline Supply Installation, and Mechanical Erection, to Drainage and Sewer Line construction. Our expertise extends to HVAC Works, Insulation, Painting & Blasting, Testing & Commissioning, Pipe Spool Fabrication, Field Installation, and all types of system flushing. We specialize in installing various mechanical machinery, lifting equipment including elevators, engines, pumps, as well as hook-up systems, manifolds, and accessories.

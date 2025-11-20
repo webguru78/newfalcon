@@ -17,7 +17,24 @@ import Electrical from './pages/Electrical';
 import Mechanical from './pages/Mechanical';
 import Instrumentation from './pages/Instrumentation';
 import Firefighting from './pages/Firefighting';
+
+import OurWork from './pages/OurWork';
+import Client from './pages/Client';
+import Contact from './pages/Contact';
 import Fabrication from './pages/Fabrication';
+import SandblastingServices from './Blog/SandblastingServices';
+import ScaffoldingDivsion from './pages/ScaffoldingDivsion';
+import Gi from './pages/Gi';
+import Fittings from './pages/Fittings';
+import Platform from './pages/Platform';
+import System from './pages/System';
+import Accessories from './pages/Accessories';
+import Equipment from './pages/Equipment';
+import Rental from './pages/Rental';
+import Lifting from './pages/lifting';
+import Transportation from './pages/Transportation';
+import Construction from './pages/Construction';
+import Power from './pages/Power';
 const App = () => {
   return (
     <Routes>
@@ -41,7 +58,23 @@ const App = () => {
       <Route path="/mechanical-services" element={<Mechanical />} />
       <Route path="/instrumentation-services" element={<Instrumentation />} />
       <Route path="/firefighting-services" element={<Firefighting />} />
-      <Route path="/fabrication-services" element={<Fabrication />} />
+      <Route path="/fabrication" element={<Fabrication />} />
+      <Route path="/sandblasting-and-painting" element={<SandblastingServices />} />
+      <Route path="/scaffolding" element={<ScaffoldingDivsion />} />
+<Route path="/equipment" element={<Equipment />} />
+      <Route path="/gi-scaffold-tubes" element={<Gi />} />
+      <Route path="/scaffold-fittings" element={<Fittings />} />
+      <Route path="/heavy-lifting-equipment-rental" element={<Rental />} />
+      <Route path="/scaffolding-platform" element={<Platform />} />
+      <Route path="/system-scaffolding" element={<System />} />
+      <Route path="/scaffolding-accessories" element={<Accessories />} />
+      <Route path="/our-work" element={<OurWork />} />
+      <Route path="/light-lifting-equipment-rental" element={<Lifting />} />
+      <Route path="/transportation-equipment-rental" element={<Transportation />} />
+      <Route path="/construction-equipment-rental" element={<Construction />} />
+      <Route path="/power-equipment-rental" element={<Power />} />
+      <Route path="/client" element={<Client />} />
+      <Route path="/contact" element={<Contact />} />
      
     
 

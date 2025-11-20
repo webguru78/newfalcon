@@ -51,7 +51,7 @@ const InstrumentationServices = () => {
         <div className="blog-grid">
           <div className="blog-main">
             <div className="hero-image">
-              <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&h=500&fit=crop" alt="Mountain Falcon Civil Services" />
+              <img src="/assets/img/in3.jpg" />
               <div className="hero-overlay">
                 <h1 style={{ fontSize: '36px', fontWeight: 'bold', marginBottom: '10px',color:"white" }}>Instrumentation Services</h1>
                 <p style={{ fontSize: '18px', opacity: 0.9,color:"white !important" }}>Building Tomorrow's Infrastructure Today</p>
@@ -86,14 +86,38 @@ const InstrumentationServices = () => {
             </p>
 
             <div className="service-section " id="building">
-              <h2 className="service-title">Mechanical Services</h2>
+              <h2 className="service-title">Instrumentation Services</h2>
               <div className="service-image-wrapper">
-                <img src="/assets/img/6.jpg" alt="Industrial Building" />
+                <img src="/assets/img/in1.jpg" alt="Industrial Building" />
               </div>
               <p className="service-text">
-              MOUNTAIN FALCON COMPANY offers a comprehensive range of mechanical and industrial services, covering everything from Industrial Plant Piping Works, Machinery Installation, Airline Supply Installation, and Mechanical Erection, to Drainage and Sewer Line construction. Our expertise extends to HVAC Works, Insulation, Painting & Blasting, Testing & Commissioning, Pipe Spool Fabrication, Field Installation, and all types of system flushing. We specialize in installing various mechanical machinery, lifting equipment including elevators, engines, pumps, as well as hook-up systems, manifolds, and accessories.
+             Mountain Falcon Company delivers specialized Instrumentation Services, ensuring precision, reliability, and seamless integration for industrial operations. Our expertise includes control and equipment room works, field instrument installation, cabling and cable termination works, calibration activities, and complete instrument testing and commissioning. We excel in instrument equipment installation, cable tray and trunking systems, internal cable installation and connections, conduit and duct installation, and the integration of all types of field instrument analyzers.
               </p>
               
+             
+            </div>
+
+            <div className="service-section " id="building">
+              <h2 className="service-title">Instrumentation Services</h2>
+              <div className="service-image-wrapper">
+                <img src="/assets/img/in4.jpg" alt="Industrial Building" />
+              </div>
+              <p className="service-text">
+            Our team also handles metering skid installations, local panels and gauge boards, junction box installation, and the fabrication of protective sunshades for field instruments. With capabilities in field instrument bench calibration, loop testing, sequence testing, and the setup of air volume tanks, Mountain Falcon Company ensures high-accuracy instrumentation solutions built to meet the demands of modern industrial environments.
+              </p>
+               <ul className="service-features" style={{color:"black",lineHeight:"3",fontSize:"1.1rem",fontWeight:"600"}}>
+  <li>✔ Calibration Works
+</li>
+  <li>✔ All Types of Field Instrument Analyzers
+</li>
+  <li>✔Cabling & Cable Termination Works
+</li>
+  <li>✔ Cable Tray and/or Trunks
+</li>
+  <li>✔ Field Instrument Bench Calibration
+</li>
+ 
+</ul>
              
             </div>
 

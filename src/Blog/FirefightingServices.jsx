@@ -51,7 +51,7 @@ const FirefightingServices = () => {
         <div className="blog-grid">
           <div className="blog-main">
             <div className="hero-image">
-              <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200&h=500&fit=crop" alt="Mountain Falcon Civil Services" />
+              <img src="/assets/img/ff3.jpg" />
               <div className="hero-overlay">
                 <h1 style={{ fontSize: '36px', fontWeight: 'bold', marginBottom: '10px',color:"white" }}>Firefighting Services</h1>
                 <p style={{ fontSize: '18px', opacity: 0.9,color:"white !important" }}>Building Tomorrow's Infrastructure Today</p>
@@ -78,20 +78,22 @@ const FirefightingServices = () => {
             <h1 className="blog-title">Comprehensive Firefighting Services by Mountain Falcon</h1>
 
             <p className="intro-text">
-             In the realm of Mechanical Services, MOUNTAIN FALCON COMPANY stands out for its exceptional technical expertise and steadfast commitment to efficiency. Our highly skilled team of technicians and engineers excels in the installation, maintenance, and repair of mechanical systems across a wide range of industries.
+            In the field of Firefighting Services, MOUNTAIN FALCON COMPANY distinguishes itself through unmatched technical expertise, advanced safety solutions, and a strong commitment to protection and reliability. Our highly trained team specializes in the installation, maintenance, inspection, and repair of fire protection systems, delivering comprehensive safety solutions for a wide range of industries.
             </p>
 
             <p className="intro-text">
-              From the precise installation of HVAC systems to the meticulous upkeep of advanced machinery, our Mechanical Services are designed to ensure optimal performance and long-term reliability. With a blend of technical mastery and a proactive service approach, MOUNTAIN FALCON COMPANY supports the smooth operation of diverse mechanical systems—enhancing productivity, minimizing downtime, and delivering lasting value to every client project.
+             From the precise installation of fire hydrant networks, fire sprinkler systems, fire alarms, detection systems, and fire suppression systems to the meticulous servicing of emergency lighting and extinguishing equipment, our Firefighting Services are engineered to ensure maximum safety, compliance, and long-term performance. With a combination of technical excellence and proactive fire risk management, MOUNTAIN FALCON COMPANY ensures smooth, safe, and reliable operation of all fire protection infrastructures—reducing hazards, preventing downtime, and delivering lasting value to every client project.
             </p>
 
             <div className="service-section " id="building">
-              <h2 className="service-title">Mechanical Services</h2>
+              <h2 className="service-title">Firefighting Services</h2>
               <div className="service-image-wrapper">
-                <img src="/assets/img/6.jpg" alt="Industrial Building" />
+                <img src="/assets/img/ff1.jpg" alt="Industrial Building" />
               </div>
               <p className="service-text">
-              MOUNTAIN FALCON COMPANY offers a comprehensive range of mechanical and industrial services, covering everything from Industrial Plant Piping Works, Machinery Installation, Airline Supply Installation, and Mechanical Erection, to Drainage and Sewer Line construction. Our expertise extends to HVAC Works, Insulation, Painting & Blasting, Testing & Commissioning, Pipe Spool Fabrication, Field Installation, and all types of system flushing. We specialize in installing various mechanical machinery, lifting equipment including elevators, engines, pumps, as well as hook-up systems, manifolds, and accessories.
+            MOUNTAIN FALCON COMPANY provides comprehensive Fire Protection Services, including the installation, maintenance, monitoring, and retrofitting of advanced fire safety systems. Our expertise covers fire hydrant systems, fire sprinkler systems, fire alarm and detection systems, fire suppression systems, emergency lighting, and fire extinguishing equipment—ensuring complete safety and compliance for every facility.
+
+We proudly serve a wide range of sectors, including construction, pharmaceuticals, restaurants, retail, healthcare, assisted living, education, government, and hospitality. Our certified team is fully equipped to manage even the most complex fire protection installations and challenging construction environments.
               </p>
               
              

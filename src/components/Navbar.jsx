@@ -130,7 +130,7 @@ const Navbar = () => {
 
                       
                         <li>
-                        <Link className="dropdown-item" to="/heavy-equipment">
+                        <Link className="dropdown-item" to="/equipment">
   <i className="far fa-info-circle" /> Heavy Equipment
 </Link>
                         </li>
@@ -156,17 +156,17 @@ const Navbar = () => {
 
                     {/* Our Work */}
                     <li className="nav-item">
-                      <a className="nav-link" href="/our-work">Our Work</a>
+                      <Link className="nav-link" to="/our-work">Our Work</Link>
                     </li>
 
                     {/* Clients */}
                     <li className="nav-item">
-                      <a className="nav-link" href="/clients">Clients</a>
+                      <Link className="nav-link" to="/client">Clients</Link>
                     </li>
 
                     {/* Contact */}
                     <li className="nav-item">
-                      <a className="nav-link" href="/contact">Contact</a>
+                      <Link className="nav-link" to="/contact">Contact</Link>
                     </li>
                   </ul>
 
