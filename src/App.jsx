@@ -35,6 +35,11 @@ import Lifting from './pages/lifting';
 import Transportation from './pages/Transportation';
 import Construction from './pages/Construction';
 import Power from './pages/Power';
+import Recruitment from './pages/Recruitment';
+import General from './pages/General';
+import ManpowerRental from './pages/ManpowerRental';
+import Scrap from './pages/Scrap';
+import Organization from './pages/Organization';
 const App = () => {
   return (
     <Routes>
@@ -75,6 +80,11 @@ const App = () => {
       <Route path="/power-equipment-rental" element={<Power />} />
       <Route path="/client" element={<Client />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/general-trading-recruitment" element={<Recruitment />} />
+      <Route path="/general-trading" element={<General />} />
+      <Route path="/professional-skilled-manpower-rental" element={<ManpowerRental />} />
+      <Route path="/scrap-buyers--dealers" element={<Scrap />} />
+      <Route path="/organization" element={<Organization />} />
      
     
 

@@ -43,7 +43,7 @@ const Navbar = () => {
                 aria-labelledby="offcanvasNavbarLabel"
               >
                 <div className="offcanvas-header">
-                  <a href="/" className="offcanvas-brand" id="offcanvasNavbarLabel">
+                  <a to="/" className="offcanvas-brand" id="offcanvasNavbarLabel">
                     <img src="assets/img/mfc.png" alt="Mountain Falcon Company" />
                   </a>
                   <button
@@ -60,14 +60,14 @@ const Navbar = () => {
                   <ul className="navbar-nav justify-content-end flex-grow-1">
                     {/* Home */}
                     <li className="nav-item">
-                      <a className="nav-link active" href="/">Home</a>
+                      <a className="nav-link active" to="/">Home</a>
                     </li>
 
                     {/* About Us with Dropdown */}
                     <li className="nav-item dropdown">
                       <a
                         className="nav-link dropdown-toggle"
-                        href="#"
+                        to="#"
                         data-bs-toggle="dropdown"
                       >
                         About Us
@@ -99,21 +99,17 @@ const Navbar = () => {
                           </Link>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/about/organization-chart">
+                          <Link className="dropdown-item" to="/organization">
                             <i className="far fa-sitemap" /> Organization Chart
-                          </a>
+                          </Link>
                         </li>
-                        <li>
-                          <a className="dropdown-item" href="/about/legal-documents">
-                            <i className="far fa-file-contract" /> Legal Documents
-                          </a>
-                        </li>
+                      
                       </ul>
                     </li>
                     <li className="nav-item dropdown">
                       <a
                         className="nav-link dropdown-toggle"
-                        href="#"
+                        to="#"
                         data-bs-toggle="dropdown"
                       >
                         Our Division
@@ -135,9 +131,9 @@ const Navbar = () => {
 </Link>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/about/hse-policy">
+                          <Link className="dropdown-item" to="/general-trading-recruitment">
                             <i className="far fa-shield-check" /> General Trading & Recruitment
-                          </a>
+                          </Link>
                         </li>
                        
                       

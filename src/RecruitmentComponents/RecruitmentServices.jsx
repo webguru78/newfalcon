@@ -1,35 +1,45 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";  // <-- IMPORTANT
+import { Link } from "react-router-dom";
 import "./ScafflodingServices.css";
 
+// Updated services with only 3 items
 const services = [
-  { title: "Scaffolding", img: "/assets/img/1.jpg", desc: "Comprehensive construction and infrastructure solutions", icon: "🏗️" },
-  { title: "Gi Scaffold Tubes", img: "/assets/img/2.jpg", desc: "Advanced mechanical engineering and maintenance", icon: "⚙️" },
-  { title: "Scaffold Fittings", img: "/assets/img/3.jpg", desc: "Complete electrical installations and systems", icon: "⚡" },
-  { title: "Scaffolding Platform", img: "/assets/img/4.jpg", desc: "Precision control and monitoring systems", icon: "🔧" },
-  { title: "System Scaffolding", img: "/assets/img/5.jpg", desc: "Safety systems and fire protection solutions", icon: "🚒" },
-  { title: "Scaffolding Accessories", img: "/assets/img/6.jpg", desc: "Custom metal fabrication and assembly", icon: "🔨" },
-  
+  {
+    title: "General Trading",
+    img: "/assets/img/z1.jpg",
+    desc: "Mountain Falcon Company operates a dynamic General Trading division, ensuring the smooth procurement and supply of diverse construction materials and equipment.",
+    icon: "📦"
+  },
+  {
+    title: "Professional Skilled Manpower Rental",
+    img: "/assets/img/z2.jpg",
+    desc: "Mountain Falcon Company provides highly professional and trained skilled manpower to meet the needs of complex construction and industrial projects.",
+    icon: "👷"
+  },
+  {
+    title: "Scrap Buyers & Dealers",
+    img: "/assets/img/z3.jpg",
+    desc: "Mountain Falcon Company supports sustainability through its Scrap Buyers & Dealers services, promoting responsible handling and recycling of construction waste.",
+    icon: "♻️"
+  }
 ];
 
 // Function to create URL slugs
 const makeSlug = (text) =>
   text.toLowerCase().replace(/ /g, "-").replace(/[^\w-]+/g, "");
 
-export default function ScafflodingServices() {
+export default function RecruitmentServices() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
     <div className="sg-section">
       <div className="container">
 
-        {/* Header */}
         <div className="sg-header">
           <span className="sg-label">Our Expertise</span>
           <h2 className="sg-title">Professional Services</h2>
           <p className="sg-desc">
-            We deliver industry-leading solutions across multiple engineering
-            disciplines, combining technical excellence with innovative approaches
+            Mountain Falcon Company delivers premium solutions with a focus on reliability, efficiency, and industry expertise.
           </p>
         </div>
 
@@ -55,7 +65,6 @@ export default function ScafflodingServices() {
                     <h3 className="sg-service-title">{service.title}</h3>
                     <p className="sg-service-desc">{service.desc}</p>
 
-                    {/* 🔗 React Router Link */}
                     <Link
                       to={`/${makeSlug(service.title)}`}
                       className="sg-link"
