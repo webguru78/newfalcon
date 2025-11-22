@@ -3,7 +3,7 @@ import { Share2, User, Calendar, Search, ArrowRight, Clock, Facebook, Twitter, L
 import './CivilServices.css';
 
 
-const LiftingServices = () => {
+const NewServices = () => {
   const [scrollProgress, setScrollProgress] = useState(0);
   const [activeSection, setActiveSection] = useState('');
 
@@ -174,4 +174,4 @@ Our commitment to quality and reliability sets us apart. Each machine is thoroug
   );
 };
 
-export default LiftingServices;
+export default NewServices;
