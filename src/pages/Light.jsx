@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar'
 import LiftingServices from '../Blog/liftingServices'
 import Footer from '../components/Footer'
 
-const Lifting = () => {
+const Light  = () => {
   return (
     <div>
       <Navbar/>
@@ -15,4 +15,4 @@ const Lifting = () => {
   )
 }
 
-export default Lifting
+export default Light 

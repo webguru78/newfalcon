@@ -31,7 +31,6 @@ import System from './pages/System';
 import Accessories from './pages/Accessories';
 import Equipment from './pages/Equipment';
 import Rental from './pages/Rental';
-import Lifting from './pages/lifting';
 import Transportation from './pages/Transportation';
 import Construction from './pages/Construction';
 import Power from './pages/Power';
@@ -40,6 +39,7 @@ import General from './pages/General';
 import ManpowerRental from './pages/ManpowerRental';
 import Scrap from './pages/Scrap';
 import Organization from './pages/Organization';
+import Light from './pages/Light';
 const App = () => {
   return (
     <Routes>
@@ -74,7 +74,7 @@ const App = () => {
       <Route path="/system-scaffolding" element={<System />} />
       <Route path="/scaffolding-accessories" element={<Accessories />} />
       <Route path="/our-work" element={<OurWork />} />
-      <Route path="/light-lifting-equipment-rental" element={<Lifting />} />
+      <Route path="/light-lifting-equipment-rental" element={<Light />} />
       <Route path="/transportation-equipment-rental" element={<Transportation />} />
       <Route path="/construction-equipment-rental" element={<Construction />} />
       <Route path="/power-equipment-rental" element={<Power />} />
