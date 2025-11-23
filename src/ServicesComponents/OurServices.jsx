@@ -19,17 +19,17 @@ const OurServices = () => {
         <div className="service-item">
           <span className="count">01</span>
           <div className="service-img">
-            <img src="assets/img/service/01.jpg" alt />
+            <img src="assets/img/1.jpg" alt />
           </div>
           <div className="service-icon">
             <img src="assets/img/icon/construction.svg" alt />
           </div>
           <div className="service-content">
             <h4 className="service-title">
-              <a href="service-single.html">Building Construction</a>
+              <a href="service-single.html">Civil Services</a>
             </h4>
             <p className="service-text">
-              There are many variations of passages have available but the majority have suffered some form by injected humour words believable. 
+             Mountain Falcon Company provides comprehensive civil construction solutions, ensuring high-quality workmanship and reliable project execution. 
             </p>
             <a href="service-single.html" className="theme-btn">Learn More<i className="fas fa-arrow-right" /></a>
           </div>
@@ -39,17 +39,17 @@ const OurServices = () => {
         <div className="service-item">
           <span className="count">02</span>
           <div className="service-img">
-            <img src="assets/img/service/02.jpg" alt />
+            <img src="assets/img/2.jpg" alt />
           </div>
           <div className="service-icon">
             <img src="assets/img/icon/maintenance.svg" alt />
           </div>
           <div className="service-content">
             <h4 className="service-title">
-              <a href="service-single.html">Building Maintenance</a>
+              <a href="service-single.html">Mechanical Services</a>
             </h4>
             <p className="service-text">
-              There are many variations of passages have available but the majority have suffered some form by injected humour words believable. 
+              We offer a full range of mechanical engineering services, including installation, maintenance, and repair of mechanical systems. 
             </p>
             <a href="service-single.html" className="theme-btn">Learn More<i className="fas fa-arrow-right" /></a>
           </div>
@@ -59,17 +59,17 @@ const OurServices = () => {
         <div className="service-item">
           <span className="count">03</span>
           <div className="service-img">
-            <img src="assets/img/service/03.jpg" alt />
+            <img src="assets/img/3.jpg" alt />
           </div>
           <div className="service-icon">
             <img src="assets/img/icon/design-2.svg" alt />
           </div>
           <div className="service-content">
             <h4 className="service-title">
-              <a href="service-single.html">Design &amp; Estimating</a>
+              <a href="service-single.html">Electrical Services</a>
             </h4>
             <p className="service-text">
-              There are many variations of passages have available but the majority have suffered some form by injected humour words believable. 
+             Mountain Falcon Company delivers superior electrical services that meet global safety standards. Our services include electrical installations.
             </p>
             <a href="service-single.html" className="theme-btn">Learn More<i className="fas fa-arrow-right" /></a>
           </div>
@@ -79,17 +79,17 @@ const OurServices = () => {
         <div className="service-item">
           <span className="count">04</span>
           <div className="service-img">
-            <img src="assets/img/service/04.jpg" alt />
+            <img src="assets/img/4.jpg" alt />
           </div>
           <div className="service-icon">
             <img src="assets/img/icon/plan.svg" alt />
           </div>
           <div className="service-content">
             <h4 className="service-title">
-              <a href="service-single.html">House Planning</a>
+              <a href="service-single.html">Instrumentation Services</a>
             </h4>
             <p className="service-text">
-              There are many variations of passages have available but the majority have suffered some form by injected humour words believable. 
+             We provide highly accurate and reliable instrumentation services for industrial operations. This includes installation, calibration.
             </p>
             <a href="service-single.html" className="theme-btn">Learn More<i className="fas fa-arrow-right" /></a>
           </div>
@@ -99,17 +99,17 @@ const OurServices = () => {
         <div className="service-item">
           <span className="count">05</span>
           <div className="service-img">
-            <img src="assets/img/service/05.jpg" alt />
+            <img src="assets/img/5.jpg" alt />
           </div>
           <div className="service-icon">
             <img src="assets/img/icon/contract.svg" alt />
           </div>
           <div className="service-content">
             <h4 className="service-title">
-              <a href="service-single.html">General Contracting</a>
+              <a href="service-single.html">Firefighting Services</a>
             </h4>
             <p className="service-text">
-              There are many variations of passages have available but the majority have suffered some form by injected humour words believable. 
+             Mountain Falcon Company ensures complete fire protection solutions for facilities and industries. Our offerings include fire alarm systems.
             </p>
             <a href="service-single.html" className="theme-btn">Learn More<i className="fas fa-arrow-right" /></a>
           </div>
@@ -119,17 +119,17 @@ const OurServices = () => {
         <div className="service-item">
           <span className="count">06</span>
           <div className="service-img">
-            <img src="assets/img/service/08.jpg" alt />
+            <img src="assets/img/6.jpg" alt />
           </div>
           <div className="service-icon">
             <img src="assets/img/icon/architecture.svg" alt />
           </div>
           <div className="service-content">
             <h4 className="service-title">
-              <a href="service-single.html">Architecture Design</a>
+              <a href="service-single.html">Fabrication</a>
             </h4>
             <p className="service-text">
-              There are many variations of passages have available but the majority have suffered some form by injected humour words believable. 
+              Our fabrication division specializes in custom metal fabrication, structural steel works, platforms, ladders, supports, and industrial components. 
             </p>
             <a href="service-single.html" className="theme-btn">Learn More<i className="fas fa-arrow-right" /></a>
           </div>

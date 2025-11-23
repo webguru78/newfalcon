@@ -13,21 +13,21 @@ gsap.registerPlugin(ScrollTrigger);
 const heroSlides = [
   {
     id: 1,
-    background: "assets/img/hero/slider-1.jpg",
+    background: "assets/img/team/08.jpeg",
     subtitle: "Build Your Dream",
     title: "Mountain Falcon Company",
     text: "Together, we build a future that exceeds expectations",
   },
   {
     id: 2,
-    background: "assets/img/hero/slider-2.jpg",
+    background: "assets/img/team/10.jpeg",
     subtitle: "Build Your Dream",
     title: "Mountain Falcon Company",
     text: "Together, we build a future that exceeds expectations",
   },
   {
     id: 3,
-    background: "assets/img/hero/slider-3.jpg",
+    background: "assets/img/team/q11.jpeg",
     subtitle: "Build Your Dream",
     title: "Mountain Falcon Company",
     text: "Together, we build a future that exceeds expectations",

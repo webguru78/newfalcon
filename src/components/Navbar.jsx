@@ -60,7 +60,7 @@ const Navbar = () => {
                   <ul className="navbar-nav justify-content-end flex-grow-1">
                     {/* Home */}
                     <li className="nav-item">
-                      <a className="nav-link active" to="/">Home</a>
+                      <Link className="nav-link active" to="/">Home</Link>
                     </li>
 
                     {/* About Us with Dropdown */}

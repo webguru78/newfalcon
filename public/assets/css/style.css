@@ -2135,9 +2135,9 @@ label {
 }
 
 .about-img .img-1{
-  width: 51%;
-  margin-top: 70px;
-  border-radius: 100px;
+  width: 100% !important;
+ height: 60vh !important;
+ object-fit: cover !important;
 }
 
 .about-img .img-2{
@@ -2147,6 +2147,7 @@ label {
   width: 45%;
   border: 10px solid var(--color-white);
   border-radius: 100px;
+  display: none !important;
 }
 
 .about-right {
@@ -2159,7 +2160,7 @@ label {
   position: absolute;
   right: 30px;
   bottom: 40px;
-  padding: 14px 25px;
+  padding: 10px 20px !important;
   border-radius: 100px;
   text-align: center;
   border: 10px solid var(--color-white);
@@ -2179,7 +2180,7 @@ label {
 }
 
 .about-experience p{
-  color: var(--color-white);
+  color: white !important;
   font-weight: 600;
 }
 

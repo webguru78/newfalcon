@@ -8,8 +8,8 @@ const About = () => {
       <div className="col-lg-6">
         <div className="about-left wow fadeInLeft" data-wow-delay=".25s">
           <div className="about-img">
-            <img className="img-1" src="assets/img/about/01.jpg" alt />
-            <img className="img-2" src="assets/img/about/02.jpg" alt />
+            <img className="img-1" src="assets/img/team/08.jpeg" alt />
+            
           </div>
           <div className="about-experience">
             <h5>30<span>+</span></h5>
